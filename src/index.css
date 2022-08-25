@@ -11,3 +11,42 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* change color and font size */
+.navbar {
+  background-color: blue;
+  font-size: 20px;
+  height: auto !important;
+}
+/* change color of font and space out */
+.nav-link {
+  color: white;
+  padding-right: 80px !important;
+}
+
+/* change color of button and text and create space between input and button */
+.button {
+  background-color: blue;
+  color: white;
+  padding: auto;
+  margin:10px
+}
+/* change color of background and text */
+.card-header {
+  background-color: blue;
+  color: white;
+}
+/* center card and set color to white */
+.card {
+  background-color: white;
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: auto !important;
+}
+/* create border */
+.card-body {
+  border: 2px solid;
+  border-color:blue;
+}
